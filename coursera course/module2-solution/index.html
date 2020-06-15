@@ -1,18 +1,123 @@
 <!DOCTYPE html>
+
 <head>
-<meta>
-<title>Module2_Solution</title>
+  <meta charset="utf-8" />
+  <title>Module2_Solution</title>
+  <style>
+    section {
+      box-sizing: border-box;
+      border: 1px solid black;
+      margin-bottom: 10px;
+      float: left;
+      border-radius: 5px;
+    }
+
+    #first {
+      background-color: blueviolet;
+    }
+
+    #second {
+      background-color: greenyellow;
+    }
+
+    #third {
+      background-color: lightcoral;
+    }
+
+    #main {
+      text-align: center;
+      font-style: italic;
+    }
+
+    #title1 {
+      margin-top: 0px;
+      float: right;
+      background-color: peru;
+      position: relative;
+      text-align: right;
+    }
+
+    #title2 {
+      margin-top: 0px;
+      float: right;
+      background-color: red;
+      text-align: right;
+      position: relative;
+    }
+
+    #title3 {
+      background-color: orange;
+      float: right;
+      margin-top: 0px;
+      text-align: right;
+      position: relative;
+    }
+
+    p {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: min-content;
+    }
+
+    @media (min-width: 992px) {
+      section {
+        width: 33%;
+        float: left;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      #first {
+        width: 50%;
+        float: left;
+      }
+
+      #second {
+        width: 50%;
+        float: left;
+      }
+
+      #third {
+        width: 100%;
+        float: left;
+      }
+    }
+
+    @media (max-width: 767px) {
+      section {
+        width: 100%;
+
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <section>
-    <div>
-    
-    </div>  
 
+  <h1 id="main">Our Menu</h1>
+
+  <section id="first">
     <div>
-    
+      <h1 id="title1">Chicken</h1>
     </div>
+    <div>
+      <p class="par"> Birinci Kisim, This is an example for the solution. Birinci Kisim, This is an example for the
+        solution. Birinci Kisim, This is an example for the solution. Birinci Kisim, This is an example for the
+        solution.<p>
+    </div>
+
   </section>
+  <section id="second">
+    <h1 id="title2">Beef</h1>
+    <p class="par">Ikinci Kisim This is an example for the solution.</p>
+  </section>
+  <section id="third">
+    <h1 id="title3">Sushi</h1>
+    <p class="par">Ucuncu kisim This is an example for the solution.</p>
+  </section>
+  </div>
+  <h1></h1>
+  <h1></h1>
 
 </body>
